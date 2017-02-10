@@ -6,7 +6,7 @@ export class LoadingState extends Phaser.State {
     loader.anchor.set(0.5, 0.5)
     loader.crossOrigin('anonymous')
     this.load.setPreloadSprite(loader)
-
+    this.load.crossOrigin = 'anonymous'
     this.load.image('player', 'assets/images/player.png')
     //this.load.spritesheet('p_run', 'assets/sprites/stickman_run.png', 100,150)
     this.load.spritesheet('run', 'assets/sprites/run.png', 96,125)
