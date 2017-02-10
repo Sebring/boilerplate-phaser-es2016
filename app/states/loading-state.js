@@ -4,7 +4,7 @@ export class LoadingState extends Phaser.State {
   preload() {
     let loader = this.add.image(this.world.centerX, this.world.centerY, 'loader')
     loader.anchor.set(0.5, 0.5)
-    loader.crossOrigin(true)
+    loader.crossOrigin('anonymous')
     this.load.setPreloadSprite(loader)
 
     this.load.image('player', 'assets/images/player.png')
