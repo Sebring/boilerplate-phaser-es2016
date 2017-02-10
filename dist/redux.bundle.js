@@ -69,7 +69,7 @@
 /******/ ({
 
 /***/ 40:
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(true)
@@ -1017,6 +1017,6 @@ return /******/ (function(modules) { // webpackBootstrap
 });
 ;
 
-/***/ }
+/***/ })
 
 /******/ });
